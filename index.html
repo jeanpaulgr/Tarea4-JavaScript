@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="sandwichOrders.js"></script>
+    <script src="tarea4.js"></script>
+    <title>Tarea 4</title>
+</head>
+<body>
+    <h1>TAREA N°4</h1>
+    <h2>Jean González</h2>
+        <ul>
+        <li>Función que me permita encontrar todas las ordenes que contengan de ingredients lechuga y palta</li>
+        <button type="button" onclick="probar1()">Probar 1</button>
+            
+        <li>Función que me permita encontrar una orden a través del id y que me devuelva un string con el siguiente 
+            formato de ejemplo: La orden fue realizada el 09-10-2020, la orden llevó mechada y bagette. En caso de no 
+            encontrar nada a través del id, el mensaje, a modo de ejemplo, deberá ser: No se encontró la orden con id 800</li>
+            <input id="Param1" type="text" placeholder="Ingresar N° de Orden..."></input>
+        <button type="button" onclick="probar2()">Probar 2</button>
+        <li>Función que me permita encontrar una orden a través del id y que me indique si la orden incluye pepinillos 
+            entre sus ingredients, debería devolver un true|false</li>
+            <input id="Param2" type="text" placeholder="Ingresar N° de Orden..."></input>
+        <button type="button" onclick="probar3()">Probar 3</button>
+        <li>Función que me permita encontrar todas las orden que se hicieron en un día en específico, es decir, si yo 
+            coloco 20-10-2020, la función me debería devolver: Se encontraron N ordenes para la fecha 20-10-2020.</li>
+        
+        <input id="Param3" type="date" placeholder="Ingresar Fecha de Orden..."></input>
+            <button type="button" onclick="probar4()">Probar 4</button>
+        </ul>
+        <h2>Resultados</h2>
+        <div id="resultados"></div>
+    
+</body>
+</html>
