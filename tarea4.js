@@ -52,9 +52,7 @@ const cantidadByFecha = (fecha) => sandwichOrders.filter(
     return `Se encontraron ${cantidadByFecha(fecha)} ordenes para la fecha ${fecha}`
   }
 
-
 //probar
-
 function probar1(){
     let resultado = document.getElementById("resultados")
     resultado.innerHTML = 'Profe, mire la consola por favor, no tuve mucho tiempo xD <br/><br/>' + 
